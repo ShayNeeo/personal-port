@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:bw": "NEXT_PUBLIC_THEME=black-white next build",
-    "build:default": "NEXT_PUBLIC_THEME=default next build",
+    "build:bw": "cross-env NEXT_PUBLIC_THEME=black-white next build",
+    "build:default": "cross-env NEXT_PUBLIC_THEME=default next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -24,7 +24,8 @@
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4",
     "eslint": "^9",
-    "eslint-config-next": "^15.0.0"
+    "eslint-config-next": "^15.0.0",
+    "cross-env": "^7.0.3"
   }
 }
 
