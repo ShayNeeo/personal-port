@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "build": {
+    "command": "npm run build",
+    "output": "out",
+    "node_version": "20"
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
+

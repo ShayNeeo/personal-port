@@ -1,0 +1,5 @@
+# Cloudflare Pages configuration
+# This file helps Cloudflare Pages serve the static export correctly
+
+/build_output = out
+
