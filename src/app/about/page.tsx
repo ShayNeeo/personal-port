@@ -163,28 +163,28 @@ export default function AboutPage() {
                 </h2>
                 <div className="prose prose-lg max-w-none text-gray-300">
                   <p className="text-lg leading-relaxed mb-6">
-                    Hi! I'm Neo, a passionate Finance student at International University - Vietnam National University, 
-                    with a deep love for technology and continuous learning. Currently in my academic journey, I'm also 
+                    Hi! I&apos;m Neo, a passionate Finance student at International University - Vietnam National University, 
+                    with a deep love for technology and continuous learning. Currently in my academic journey, I&apos;m also 
                     self-studying Computer Science and actively learning Mandarin (普通话).
                   </p>
                   
                   <p className="text-lg leading-relaxed mb-6">
                     My interests span across finance, technology, and cultural exploration. I believe in the power of 
                     combining traditional finance knowledge with modern technology to create innovative solutions. 
-                    I'm particularly fascinated by AI applications in finance, blockchain technology, and data science 
+                    I&apos;m particularly fascinated by AI applications in finance, blockchain technology, and data science 
                     - areas where I see tremendous potential for disruption and innovation.
                   </p>
 
                   <p className="text-lg leading-relaxed mb-6">
-                    When I'm not studying or coding, you can find me exploring new technologies, working on personal 
-                    projects, or diving deep into financial markets and investment strategies. I'm always excited to 
+                    When I&apos;m not studying or coding, you can find me exploring new technologies, working on personal 
+                    projects, or diving deep into financial markets and investment strategies. I&apos;m always excited to 
                     connect with like-minded individuals and learn from diverse perspectives.
                   </p>
 
                   <p className="text-lg leading-relaxed">
                     My journey is about bridging two worlds: understanding the complexities of finance and leveraging 
-                    technology to solve real-world problems. Whether it's building web applications, analyzing financial 
-                    data, or exploring AI models, I'm constantly learning and growing.
+                    technology to solve real-world problems. Whether it&apos;s building web applications, analyzing financial 
+                    data, or exploring AI models, I&apos;m constantly learning and growing.
                   </p>
                 </div>
               </div>
@@ -251,9 +251,9 @@ export default function AboutPage() {
 
               {/* Call to Action */}
               <div className="card-hover gradient-bg p-12 rounded-xl text-center">
-                <h2 className="text-3xl font-bold font-playfair mb-4 text-white">Let's Connect!</h2>
+                <h2 className="text-3xl font-bold font-playfair mb-4 text-white">Let&apos;s Connect!</h2>
                 <p className="text-xl mb-8 opacity-90 text-white">
-                  I'm always interested in meaningful conversations and collaboration opportunities.
+                  I&apos;m always interested in meaningful conversations and collaboration opportunities.
                 </p>
                 <div className="flex flex-wrap justify-center gap-4">
                   <Link href="mailto:FAFBIU23210@student.hcmiu.edu.vn" className="px-6 py-3 bg-white text-purple-600 rounded-lg font-semibold hover:bg-gray-100 transition">

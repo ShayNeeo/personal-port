@@ -21,7 +21,7 @@ const Header = () => {
                 className="rounded-full mr-2"
               />
               <span className="text-xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
-                Neo's Portfolio
+                Neo&apos;s Portfolio
               </span>
             </Link>
           </div>

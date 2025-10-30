@@ -9,7 +9,7 @@ export default function Home() {
       <div className="hero-section">
         <div className="hero-content">
           <div className="hero-text">
-            <h1>Hi, I'm <span className="highlight">Pham Quoc Thanh</span></h1>
+            <h1>Hi, I&apos;m <span className="highlight">Pham Quoc Thanh</span></h1>
             <h2 className="subtitle">Finance Student & Tech Enthusiast</h2>
             <p className="hero-description">
               Passionate about bridging Finance and Technology. Currently studying Finance & Banking at International University - VNU HCMC, 
