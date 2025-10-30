@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:bw": "NEXT_PUBLIC_THEME=black-white next build",
+    "build:default": "NEXT_PUBLIC_THEME=default next build",
     "start": "next start",
     "lint": "next lint"
   },
