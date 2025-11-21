@@ -109,7 +109,7 @@ This project is private and personal.
 
 **Pham Quoc Thanh (Neo)**
 - Finance Student at International University - VNU HCMC
-- Email: FAFBIU23210@student.hcmiu.edu.vn
+- Email: shayneeo@0.id.vn
 - GitHub: [@ShayNeeo](https://github.com/ShayNeeo)
 - LinkedIn: [shayneeo](https://www.linkedin.com/in/shayneeo/)
 
