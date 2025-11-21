@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { ExternalLink, Github, Globe, Code, Database, Brain, TrendingUp } from "lucide-react";
+import { ExternalLink, Github, Globe, Code, Database, Brain, TrendingUp, Mail, Smartphone, Link2 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Projects | Pham Quoc Thanh (Neo)",
@@ -9,6 +9,46 @@ export const metadata: Metadata = {
 };
 
 const projects = [
+  {
+    title: 'w9-tools - Link Shortener & File Sharing',
+    description: 'Lightweight utility stack for instant link shortening, markdown notepads, and secure file sharing. Built with Rust (Axum) backend and React/Vite frontend with QR code generation.',
+    image: '/scene.jpg',
+    tech: ['Rust', 'Axum', 'React', 'Vite', 'TypeScript', 'SQLite'],
+    category: 'Systems Programming',
+    link: 'https://w9.se',
+    github: 'https://github.com/ShayNeeo/w9-tools',
+    icon: Link2
+  },
+  {
+    title: 'w9-mail - Email Service Layer',
+    description: 'Email service layer sitting between applications and Microsoft SMTP/IMAP/POP3. Features account management, API for transactional emails, and admin dashboard. Built with Rust backend and Next.js frontend.',
+    image: '/logo.jpg',
+    tech: ['Rust', 'Axum', 'Next.js', 'TypeScript', 'SQLite', 'Microsoft SMTP'],
+    category: 'Full-Stack Application',
+    link: 'https://w9.nu',
+    github: 'https://github.com/ShayNeeo/w9-mail',
+    icon: Mail
+  },
+  {
+    title: 'LocalShare - LAN File Sharing',
+    description: 'Privacy-first Flutter app for transferring files between devices on the same local network. No accounts, no cloud storage - files are sent directly between devices on your LAN.',
+    image: '/logo.jpg',
+    tech: ['Flutter', 'Dart', 'Android'],
+    category: 'Mobile Development',
+    link: 'https://localshare.xyz',
+    github: 'https://github.com/ShayNeeo/localshare',
+    icon: Smartphone
+  },
+  {
+    title: 'Nguyen Restaurant - Management Platform',
+    description: 'Full-stack restaurant management system with payment integration (PayPal/Stripe), email notifications via Brevo, and admin dashboard. Features gift code system with QR scanning and order management.',
+    image: '/scene.jpg',
+    tech: ['TypeScript', 'Rust', 'Next.js', 'SQLite', 'PayPal API', 'Nginx'],
+    category: 'Full-Stack Application',
+    link: 'https://github.com/ShayNeeo/nguyen-restaurant',
+    github: 'https://github.com/ShayNeeo/nguyen-restaurant',
+    icon: Database
+  },
   {
     title: 'Personal Website & Blog',
     description: 'A modern full-stack website featuring AI chatbot, QR generator, URL shortener, and private search engine. Built with Next.js and TypeScript.',
@@ -28,16 +68,6 @@ const projects = [
     link: 'https://github.com/ShayNeeo/ping0',
     github: 'https://github.com/ShayNeeo/ping0',
     icon: Code
-  },
-  {
-    title: 'Restaurant Demo Platform',
-    description: 'Full-stack restaurant management system with payment integration (PayPal/Stripe), email notifications, and admin dashboard. Built with Rust backend and TypeScript frontend.',
-    image: '/scene.jpg',
-    tech: ['Rust', 'TypeScript', 'Express', 'PostgreSQL', 'PayPal API', 'SMTP'],
-    category: 'Full-Stack Application',
-    link: 'https://github.com/ShayNeeo/restaurent-demo',
-    github: 'https://github.com/ShayNeeo/restaurent-demo',
-    icon: Database
   },
   {
     title: 'Vocabulary Learning App',
@@ -71,7 +101,7 @@ const projects = [
   }
 ];
 
-const categories = ['All', 'Web Development', 'Systems Programming', 'Full-Stack Application', 'AI & Education', 'Artificial Intelligence', 'Privacy & Infrastructure'];
+const categories = ['All', 'Web Development', 'Systems Programming', 'Full-Stack Application', 'Mobile Development', 'AI & Education', 'Artificial Intelligence', 'Privacy & Infrastructure'];
 
 export default function ProjectsPage() {
   return (
